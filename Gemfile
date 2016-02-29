@@ -11,7 +11,8 @@ group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
-
+# Devise
+gem 'devise', '3.4.1'
 #Use bootstrap library for styles
 gem 'bootstrap-sass', '3.3.1'
 # Use SCSS for stylesheets
